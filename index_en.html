@@ -102,13 +102,21 @@
         .hero-intro { font-family: var(--font-tech); color: var(--accent); margin-bottom: 20px; font-size: 16px; }
         .hero-subtitle { color: var(--text-secondary); font-size: clamp(20px, 4vw, 30px); max-width: 600px; margin-top: 10px; }
         
-        .btn-cta {
-            display: inline-block; margin-top: 50px; padding: 18px 25px;
-            border: 1px solid var(--accent); border-radius: 4px;
-            font-family: var(--font-tech); color: var(--accent); background: transparent;
-            font-size: 14px; transition: all 0.3s ease;
+        .lang-btn {
+            border: 1px solid var(--text-secondary); 
+            padding: 5px 10px; 
+            border-radius: 4px; 
+            color: var(--text-secondary);
+            font-family: var(--font-tech);
+            font-size: 13px;
+            transition: 0.3s;
+            text-decoration: none;
+            display: inline-block;
         }
-        .btn-cta:hover { background: rgba(100, 255, 218, 0.1); text-decoration: none; transform: translateY(-3px); }
+        .lang-btn:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+        }
 
         /* --- GLOBAL CARD STYLES --- */
         .interactive-card {
